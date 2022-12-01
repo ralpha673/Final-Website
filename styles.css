@@ -1,0 +1,533 @@
+html {
+    background-color: #7ECCFF;
+    overflow-x: hidden;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0px;
+    margin-right: 0%;
+    padding: none;
+    margin: none;
+    scroll-behavior: smooth;
+}
+
+body {
+  background-image: url('/Images/background.png');
+  background-size: 100vw;
+  background-repeat: repeat-y;
+  padding-left: 0%;
+  margin-left: 0%;
+  padding-right: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+header {
+    border-bottom:#3F72AF;
+    border-radius: 1px;
+}
+
+.header_logo {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  float: left;
+}
+
+.paper_links {
+  font-size: 30px;
+  color: #7ECCFF;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border-radius: 25px;
+  background-color: white;
+  width: 10vw;
+  float: left;
+  text-align: center;
+  display: block;
+  margin-right: 5vw;
+  margin-left: 12vw;
+}
+
+.paper_links_2 {
+  font-size: 30px;
+  color: #7ECCFF;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border-radius: 25px;
+  background-color: white;
+  width: 10vw;
+  float: left;
+  display: block;
+  margin-left: 1vw;
+  text-align: center;
+}
+
+.icons {
+    height: 40px;
+    float: left;
+    margin-left: 1%;
+}
+
+/* Welcome MHC */
+
+.welcome_mhc {
+    margin-top: 5vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    margin-left: 5%;
+    margin-right: 5vw;
+    border-radius: 25px;
+    column-count: 2;
+    background-color: #7ECCFF;
+    border-radius: 50px;
+    margin-bottom: none;
+    border-color: white;
+    border-style: solid;
+    border-width: 20px;
+    display: block;
+    overflow: hidden;
+    height: 65vh;;
+    width: 86vw;
+  }
+  
+  .main_text {
+    color: white;
+    font-size: 700%;
+    margin-left: 2vw;
+    text-shadow: 5 5 .5em white;
+    font-family: 'CustomFont', 'bantayogregular';
+    float: left;
+    margin-bottom: 0%;
+    text-transform:none;
+    text-shadow:0.07159456em 0.07159456em 0em rgba(255, 255, 255, 0.400000);
+    letter-spacing:0em;
+    line-height:1.04em;
+  }
+  
+  .sub_text {
+    color: white;
+    font-size: 300%;
+    margin-left: 2vw;
+    float: left;
+    margin-top: 0%;
+    font-family: 'CustomFont', 'bantayogregular';
+  }
+  
+.gif {
+  float: right;
+}
+  
+  .heads {
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+      margin-left: 5%;
+      margin-right: 5vw;
+      border-radius: 25px;
+      overflow-x: hidden;
+  }
+
+
+/* Why $MHC */
+
+.section_blue {
+  margin-top: 5vw;
+  padding-bottom: 4vw;
+  margin-left: 5%;
+  margin-right: 5vw;
+  border-radius: 25px;
+  column-count: 2;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: 70vh;;
+  width: 86vw;
+  position: sticky;
+}
+
+.title_blue {
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  color: #3F72AF;
+  display: block;
+  background-color: #3F72AF;
+  margin-top: 0%;
+  padding-top: 0%;
+  width: 15vw;
+  text-align: center;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  z-index: 1;
+}
+
+.title_blue_text {
+  color: #7ECCFF;
+  font-family: 'CustomFont', 'bantayogregular';
+  z-index: 1;
+}
+
+.text_black {
+  font-family: 'CustomFont', 'bantayogregular';
+  font-weight: lighter;
+  width: 95%;
+  margin-left: 2vw;
+  font-size: 23px;
+  text-align: center;
+}
+
+.img_right {
+  margin-left: 5%;
+  margin-top: 2vh;
+}
+
+
+/* Meet the creators */
+.title_center {
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  color: #3F72AF;
+  display: block;
+  background-color: #3F72AF;
+  width: fit-content;
+  padding: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  text-align: center;
+  margin-top: 0.1vw;
+  margin-left: 35vw;
+  margin-right: 35vw;
+}
+
+.section_meet {
+  background-image: url('/Images/background_meet.png');
+  background-size:100%;
+  background-repeat:no-repeat;
+  width: 86vw;
+  margin-top: 5vw;
+  padding-bottom: 0vw;
+  margin-left: 5%;
+  margin-right: 5vw;
+  border-radius: 25px;
+  column-count: 2;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: 84vh;
+  width: 86vw;
+  background-color: white;
+}
+
+.text_meet {
+  font-family: 'CustomFont', 'bantayogregular';
+  font-weight: lighter;
+  width: 25vw;
+  margin-left: 0vw;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  margin-left: 7vw;
+  margin-top: 10vw;
+  display: block;
+  overflow-y: scroll;
+}
+
+.text_meet_2 {
+  font-family: 'CustomFont', 'bantayogregular';
+  font-weight: lighter;
+  width: 25vw;
+  margin-left: 0vw;
+  font-size: 20px;
+  text-align: center;
+  float: right;
+  margin-right: 11vw;
+  margin-top: 16vw;
+  display: block;
+  overflow-y: scroll;
+}
+
+
+/* Where We donate */
+
+.text_donate {
+  font-family: 'CustomFont', 'bantayogregular';
+  font-weight: lighter;
+  width: 95%;
+  margin-left: 2vw;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* Road Map */
+
+.section_road {
+  width: 86vw;
+  background-color: white;
+  margin-top: 5vw;
+  padding-bottom: 0vw;
+  margin-left: 5%;
+  margin-right: 5vw;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: auto;
+}
+
+.roadmap_img {
+  margin-left: 2vw;
+}
+
+
+/*ICO and Podcast Code*/
+
+.ico_pod {
+  margin-top: 5vw;
+  margin-left: 5%;
+  border-radius: 50px;
+  margin-bottom: none;
+  display: block;
+  overflow: hidden;
+  height: 84vh;;
+  width: 88vw;
+}
+
+.ico {
+  width: 86vw;
+  background-color: white;
+  padding-bottom: 0vw;
+  margin-right: 5vw;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: auto;
+  width: 36vw;
+  height: 38vw;
+  float: left;
+}
+
+.pod {
+  width: 86vw;
+  background-color: white;
+  padding-bottom: 0vw;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: auto;
+  width: 36vw;
+  height: 38vw;
+  float: right;
+  position: absolute;
+  margin-left: 50%;
+}
+
+.title_half {
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  color: #7ECCFF;
+  display: block;
+  background-color: #3F72AF;
+  margin-top: 0%;
+  padding: 1vw;
+  width: fit-content;
+  text-align: center;
+  margin-top: 0.1vw;
+  text-align: center;
+  margin-left: 15vw;
+}
+
+.ico_text {
+  font-size: 180%;
+  width: 30vw;
+  margin-left: 2vw;
+  font-family: 'CustomFont', 'bantayogregular';
+}
+
+.pod_text {
+  font-size: 180%;
+  width: 30vw;
+  margin-left: 2vw;
+  font-family: 'CustomFont', 'bantayogregular';
+}
+
+li {
+  margin-left: 2vw;
+  font-size: 30px;
+  font-family: 'CustomFont', 'bantayogregular';
+}
+
+a {
+  color: black;
+}
+
+/* Footer Code */
+
+footer {
+  background-color: #3F72AF;
+  padding-bottom: 0vw;
+  border-radius: 50px;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  width: 86vw;
+  height: 200px;
+  float: left;
+  margin-top: 5vw;
+  margin-left: 5%;
+  margin-bottom: 1vw;
+}
+
+.footer-image {
+  float: right;
+}
+
+.footertext {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'CustomFont', 'bantayogregular';
+  font-size: 150%;
+}
+
+/*Button Code*/
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-right: 2vw;
+    margin-top: 20px;
+    float: right;
+    height: 1.2vw;
+    text-align: center;
+    text-decoration: none;
+    width: 8vw;
+    height: auto;
+    font-family: 'CustomFont', 'bantayogregular';
+  }
+  .button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0cf;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button:hover {
+    color: #fff;
+  }
+  .button:hover:before {
+    width: 100%;
+  }
+
+
+  .button_2 {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+    height: auto;
+    margin-left: 2vw;
+    font-family: 'CustomFont', 'bantayogregular';
+  }
+  .button_2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0cf;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button_2:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button_2:hover {
+    color: #fff;
+  }
+  .button_2:hover:before {
+    width: 100%;
+  }
+
+
+  @font-face {
+  font-family: 'bantayogregular';
+  src: url('bantayog-regular-webfont.woff2') format('woff2'),
+      url('bantayog-regular-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
