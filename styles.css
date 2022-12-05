@@ -207,17 +207,21 @@ header {
   margin-right: 35vw;
 }
 
-.section_meet {
-  background-image: url('/Images/background_meet.png');
-  background-size:100%;
-  background-repeat:no-repeat;
-  width: 86vw;
+.meet {
   margin-top: 5vw;
-  padding-bottom: 0vw;
   margin-left: 5%;
-  margin-right: 5vw;
-  border-radius: 25px;
-  column-count: 2;
+  border-radius: 50px;
+  margin-bottom: none;
+  display: block;
+  overflow: hidden;
+  height: 84vh;;
+  width: 88vw;
+}
+
+.meet_harry {
+  width: 86vw;
+  background-color: white;
+  padding-bottom: 0vw;
   border-radius: 50px;
   margin-bottom: none;
   border-color: #3F72AF;
@@ -225,23 +229,55 @@ header {
   border-width: 20px;
   display: block;
   overflow: hidden;
-  height: 84vh;
+  height: auto;
+  width: 36vw;
+  height: 38vw;
+  float: right;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 0%;
+}
+
+.img_harry {
+  height: 30%;
+  margin-left: 13vw;
+  margin-bottom: 0%;
+}
+
+.img_ralph {
+  height: 30%;
+  margin-left: 13vw;
+  margin-bottom: 0%;
+}
+
+.meet_ralph {
   width: 86vw;
   background-color: white;
+  padding-bottom: 0vw;
+  margin-right: 5vw;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: auto;
+  width: 36vw;
+  height: 38vw;
+  float: left;
 }
 
 .text_meet {
   font-family: 'CustomFont', 'bantayogregular';
   font-weight: lighter;
   width: 25vw;
-  margin-left: 0vw;
   font-size: 20px;
   text-align: center;
   float: left;
   margin-left: 7vw;
-  margin-top: 10vw;
+  margin-top: 19vh;
   display: block;
-  overflow-y: scroll;
 }
 
 .text_meet_2 {
@@ -253,11 +289,9 @@ header {
   text-align: center;
   float: right;
   margin-right: 11vw;
-  margin-top: 16vw;
   display: block;
-  overflow-y: scroll;
+  margin-bottom: 0vh;
 }
-
 
 /* Where We donate */
 
@@ -269,7 +303,6 @@ header {
   font-size: 20px;
   text-align: center;
 }
-
 
 /* Road Map */
 
