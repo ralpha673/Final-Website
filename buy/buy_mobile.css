@@ -1,0 +1,326 @@
+html {
+  background-color: #7ECCFF;
+  overflow-x: hidden;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-left: 0px;
+  margin-right: 0%;
+  padding: none;
+  margin: none;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #7ECCFF;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  column-count:auto;
+  border-bottom: 1px;
+  border-color: #ffffff;
+  border-left: 0px;
+  border-style:double;
+  border-top: 0px;
+  border-right: 0px;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+  /* animation magic */
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  top: 0;
+  position: fixed;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  z-index: 9999;
+}
+
+/* Welcome BUY */
+
+.live_now {
+color: white;
+font-size: 10vw;
+text-shadow: 5 5 .5em white;
+font-family: 'CustomFont', 'bantayogregular';
+margin-bottom: 0%;
+text-transform:none;
+text-shadow:0.07159456em 0.07159456em 0em rgba(255, 255, 255, 0.400000);
+letter-spacing:0em;
+line-height:1.04em;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.live {
+margin-top: 20vh;
+}
+
+.how_buy {
+  color: white;
+  font-size: 350%;
+  text-shadow: 5 5 .5em white;
+  font-family: 'CustomFont', 'bantayogregular';
+  margin-bottom: 0%;
+  text-transform:none;
+  text-shadow:0.07159456em 0.07159456em 0em rgba(255, 255, 255, 0.400000);
+  letter-spacing:0em;
+  line-height:1.04em;
+  text-align: center;
+}
+
+.center{
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 5.3rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  margin-right: 2vw;
+  margin-top: 20vh;
+  height: 1.2vh;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  font-family: 'CustomFont', 'bantayogregular';
+}
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0cf;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+/* Wallet */
+
+.wallet_left {
+  margin-top: 5%;
+  margin-left: 3%;
+  border-radius: 25px;
+  background-color: #7ECCFF;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: white;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: 30vh;
+  width: 86vw;
+  overflow-y: auto;
+}
+
+.wallet_right {
+  margin-top: 5%;
+  margin-left: 3%;
+  border-radius: 25px;
+  background-color: #7ECCFF;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: white;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: 30vh;
+  width: 86vw;
+  overflow-y: auto;
+}
+
+.wallet_text_1 {
+color: white;
+font-size: 10vw;
+text-shadow: 5 5 .5em white;
+font-family: 'CustomFont', 'bantayogregular';
+text-transform: none;
+text-shadow: 0.07159456em 0.07159456em 0em rgba(255, 255, 255, 0.400000);
+letter-spacing: 0em;
+line-height: 1.04em;
+margin-left: 1vw;
+margin-top: 1vh;
+margin-right: 1vw;
+margin-bottom: 2vh;
+width: 70vw;
+}
+
+.input {
+display: flex;
+width: 10vw;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input:focus {
+color: #495057;
+background-color: #fff;
+border-color: #80bdff;
+outline: 0;
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button.wallet_convert {
+background-color: #3F72AF; /* Set the background color to a blue color */
+color: white; /* Set the font color to white */
+padding: 10px 20px; /* Add some padding to the button */
+border-radius: 5px; /* Add rounded corners to the button */
+font-size: 16px; /* Increase the font size */
+cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+}
+
+.usd_input {
+width: 10vw;
+height: 2vh;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+margin-left: 1.5vw;
+float: left;
+}
+
+.input_output {
+color: white;
+font-size: 8vw;
+text-shadow: 5 5 .5em white;
+font-family: 'CustomFont', 'bantayogregular';
+margin-bottom: 0%;
+text-transform:none;
+text-shadow:0.07159456em 0.07159456em 0em rgba(255, 255, 255, 0.400000);
+letter-spacing:0em;
+line-height:1.04em;
+display: block;
+margin-left: 1vw;
+}
+
+/* video */
+
+.video {
+background-color: #7ECCFF;
+padding-bottom: 0vh;
+border-color: #3F72AF;
+border-style: solid;
+border-width: 0px;
+display: block;
+width: 86vw;
+height: auto;
+float: left;
+margin-top: 5vh;
+margin-left: 5%;
+margin-bottom: 1vh;
+align-items: center;
+text-align: center;
+}
+
+iframe {
+margin-top: 5vh;
+width: 90vw;
+height: 40vh;
+}
+
+.video_text {
+  color: white;
+  font-size: 4vw;
+  text-shadow: 5 5 .5em white;
+  font-family: 'CustomFont', 'bantayogregular';
+  text-transform: none;
+  text-shadow: 0.07159456em 0.07159456em 0em rgba(255, 255, 255, 0.400000);
+  letter-spacing: 0em;
+  line-height: 1.04em;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 70vw;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #3F72AF;
+  padding-bottom: 0vh;
+  border-radius: 50px;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: inline-block;
+  overflow: hidden;
+  width: 81vw;
+  height: 200px;
+  margin-top: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 1vh;
+}
+
+.footer-image {
+  float: right;
+}
+
+.footer-image_mobile {
+  display: none;
+}
+
+.footertext {
+  text-align: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'CustomFont', 'bantayogregular';
+  font-size: 150%;
+}
+
+.footertextmobile {
+  text-align: left;
+  font-family: 'CustomFont', 'bantayogregular';
+}
+
+@font-face {
+  font-family: 'bantayogregular';
+  src: url('/fonts/bantayog-regular-webfont.woff2') format('woff2'),
+      url('/fonts/bantayog-regular-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Wallet Connect */
