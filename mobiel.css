@@ -28,49 +28,62 @@ header {
 }
 
 .header_logo {
+align-items: center;
 text-align: center;
+align-content: center;
 float: left;
-margin-top: 2vh;
 display: none;
 }
 
+.header_logo_mobile {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin-top: 4vh;
+  z-index: 1;
+  display: inline-block;
+}
+
 .paper_links {
-font-size: 30px;
+font-size: 200%;
 color: #7ECCFF;
 padding-top: 1vw;
 padding-bottom: 1vw;
 border-radius: 25px;
 background-color: white;
 width: 30vw;
+float: left;
 text-align: center;
 display: block;
-float: left;
+
 }
 
 .paper_links_2 {
 font-size: 30px;
 color: #7ECCFF;
-padding-top: 1vw;
-padding-bottom: 1vw;
+padding-top: 1vh;
+padding-bottom: 1vh;
 border-radius: 25px;
 background-color: white;
-width: 30vw;
+width: 10vw;
+float: left;
 display: block;
+margin-left: 1vw;
 text-align: center;
-float: right;
 }
 
 .icons {
-  display: block;
+  height: 40px;
   float: left;
+  margin-left: 1%;
 }
 
 /* Welcome MHC */
 
 .welcome_mhc {
-  margin-top: 5vw;
-  padding-top: 4vw;
-  padding-bottom: 4vw;
+  margin-top: 5vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   margin-left: 5%;
   margin-right: 5vw;
   border-radius: 25px;
@@ -81,16 +94,37 @@ float: right;
   border-color: white;
   border-style: solid;
   border-width: 20px;
-  display: block;
+  display: none;
   overflow: hidden;
   height: 65vh;;
   width: 86vw;
+  overflow-y: auto;
+}
+
+.welcome_mhc_mobile {
+  margin-top: 5vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  margin-left: 5%;
+  margin-right: 5vw;
+  border-radius: 25px;
+  background-color: #7ECCFF;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: white;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: 60vh;;
+  width: 86vw;
+  overflow-y: auto;
 }
 
 .main_text {
   color: white;
-  font-size: 540%;
-  margin-left: 1vw;
+  font-size: 400%;
+  margin-left: 2vw;
   text-shadow: 5 5 .5em white;
   font-family: 'CustomFont', 'bantayogregular';
   margin-bottom: 0%;
@@ -98,27 +132,30 @@ float: right;
   text-shadow:0.07159456em 0.07159456em 0em rgba(255, 255, 255, 0.400000);
   letter-spacing:0em;
   line-height:1.04em;
-  width: 100vw;
 }
 
 .sub_text {
+  color: white;
+  font-size: 250%;
+  margin-left: 2vw;
+  margin-top: 0%;
   font-family: 'CustomFont', 'bantayogregular';
-  margin-top: 30vh;
-  margin-left: 0%;
-  width: 100vw;
-  margin-right: 0%;
-  overflow-x: scroll;
-  text-align: left;
+  margin-top: 6vh;
+  margin-right: 20vw;
+  margin-left: 2vw;
+  width: 80vw;
+  float: left;
+  height: auto;
 }
 
 .gif {
-  float: right;
-  display: none;
+ float: right;
+ display: none;
 }
 
 .heads {
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     margin-left: 5%;
     margin-right: 5vw;
     border-radius: 25px;
@@ -128,9 +165,49 @@ float: right;
 
 /* Why $MHC */
 
+.section_why {
+margin-top: 4vh;
+padding-bottom: 4vh;
+margin-left: 5%;
+margin-right: 5vw;
+border-radius: 25px;
+background-color: white;
+border-radius: 50px;
+margin-bottom: none;
+border-color: #3F72AF;
+border-style: solid;
+border-width: 20px;
+display: none;
+overflow: hidden;
+height: 100vh;
+width: 86vw;
+position: sticky;
+overflow-y: auto;
+}
+
+.section_why_mobile {
+  margin-top: 4vh;
+  padding-bottom: 4vh;
+  margin-left: 5%;
+  margin-right: 5vw;
+  border-radius: 25px;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: 100vh;
+  width: 86vw;
+  position: sticky;
+  overflow-y: auto;
+  }
+
 .section_blue {
-margin-top: 5vw;
-padding-bottom: 4vw;
+margin-top: 4vh;
+padding-bottom: 4vh;
 margin-left: 5%;
 margin-right: 5vw;
 border-radius: 25px;
@@ -141,9 +218,9 @@ margin-bottom: none;
 border-color: #3F72AF;
 border-style: solid;
 border-width: 20px;
-display: block;
+display: none;
 overflow: hidden;
-height: 80vh;;
+height: 70vh;;
 width: 86vw;
 position: sticky;
 }
@@ -158,19 +235,38 @@ display: block;
 background-color: #3F72AF;
 margin-top: 0%;
 padding-top: 0%;
-width: fit-content;
+width: auto;
 text-align: center;
 margin-left: 2vw;
-margin-top: 2vw;
+margin-top: 2vh;
 z-index: 1;
-padding-left: 1vw;
-padding-right: 1vw;
 }
 
 .title_blue_text {
-color: #7ECCFF;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  color: #7ECCFF;
+  display: block;
+  background-color: #3F72AF;
+  margin-top: 0%;
+  padding-top: 0%;
+  text-align: center;
+  margin-top: 2vh;
+  width: auto;
+  z-index: 1;
+}
+
+.text_why {
 font-family: 'CustomFont', 'bantayogregular';
-z-index: 1;
+font-weight: lighter;
+width: 79vw;
+margin-left: 2vw;
+margin-right: 2vw;
+font-size: 23px;
+text-align: left;
+height: auto;
+float: none;
 }
 
 .text_black {
@@ -180,42 +276,25 @@ width: 95%;
 margin-left: 2vw;
 font-size: 23px;
 text-align: center;
+height: fit-content;
 }
 
 .img_right {
 margin-left: 5%;
-margin-top: 6vw;
+margin-top: 2vh;
+display: none;
 }
 
 
 /* Meet the creators */
-.title_center {
-border-radius: 50px;
-margin-bottom: none;
-border-color: #3F72AF;
-border-style: solid;
-color: #3F72AF;
-display: block;
-background-color: #3F72AF;
-width: fit-content;
-padding: 0.5vw;
-padding-left: 2vw;
-padding-right: 2vw;
-text-align: center;
-margin-top: 0.1vw;
-margin-left: 35vw;
-margin-right: 35vw;
-}
 
-.section_meet {
-background-color: white;
-width: 86vw;
-margin-top: 5vw;
-padding-bottom: 0vw;
+.meet_mobile {
+margin-top: 4vh;
+padding-bottom: 4vh;
 margin-left: 5%;
 margin-right: 5vw;
 border-radius: 25px;
-column-count: 2;
+background-color: white;
 border-radius: 50px;
 margin-bottom: none;
 border-color: #3F72AF;
@@ -223,25 +302,131 @@ border-style: solid;
 border-width: 20px;
 display: block;
 overflow: hidden;
-height: 84vh;
+height: 100vh;
 width: 86vw;
+position: sticky;
+overflow-y: auto;
+}
+
+
+.title_center {
+border-radius: 50px;
+border-color: #3F72AF;
+border-style: solid;
+color: #3F72AF;
+background-color: #3F72AF;
+width: fit-content;
+padding-left: 2vw;
+padding-right: 2vw;
+margin-top: 0.1vh;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.meet {
+margin-top: 5vw;
+margin-left: 5%;
+border-radius: 50px;
+margin-bottom: none;
+overflow: hidden;
+height: 84vh;;
+width: 88vw;
+display: none;
+}
+
+.meet_harry {
 background-color: white;
+padding-bottom: 0vh;
+margin-right: 5vw;
+border-radius: 50px;
+margin-bottom: none;
+border-color: #3F72AF;
+border-style: solid;
+border-width: 20px;
+display: block;
+overflow: hidden;
+height: auto;
+width: 36vw;
+height: 65vh;
+overflow-y: auto;
+}
+
+.img_harry {
+height: 30%;
+margin-left: 13vw;
+margin-bottom: 0%;
+}
+
+.img_ralph {
+height: 30%;
+margin-left: 13vw;
+margin-bottom: 0%;
+text-align: center;
+align-items: center;
+align-content: center;
+}
+
+.meet_ralph {
+background-color: white;
+padding-bottom: 0vh;
+margin-right: 5vw;
+border-radius: 50px;
+margin-bottom: none;
+border-color: #3F72AF;
+border-style: solid;
+border-width: 20px;
+display: block;
+overflow: hidden;
+height: auto;
+width: 36vw;
+height: 65vh;
+overflow-y: auto;
 }
 
 .text_meet {
 font-family: 'CustomFont', 'bantayogregular';
-font-weight: lighter;
-width: 100vw;
+width: 80vw;
+font-size: 20px;
+text-align: center;
+margin-left: 4vw;
+margin-top: 3vh;
+display: block;
+}
+
+.text_meet_2 {
+font-family: 'CustomFont', 'bantayogregular';
+width: 25vw;
 margin-left: 0vw;
 font-size: 20px;
 text-align: center;
-margin-left: 7vw;
-margin-top: 10vw;
+margin-right: 4vw;
 display: block;
-text-align: center;
+margin-bottom: 0vh;
 }
 
 /* Where We donate */
+
+.section_where_mobile {
+  margin-top: 4vh;
+  padding-bottom: 4vh;
+  margin-left: 5%;
+  margin-right: 5vw;
+  border-radius: 25px;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: auto;
+  width: 86vw;
+  position: sticky;
+  overflow-y: auto;
+}
 
 .text_donate {
 font-family: 'CustomFont', 'bantayogregular';
@@ -252,14 +437,12 @@ font-size: 20px;
 text-align: center;
 }
 
-
 /* Road Map */
 
 .section_road {
-width: 86vw;
 background-color: white;
-margin-top: 5vw;
-padding-bottom: 0vw;
+margin-top: 5vh;
+padding-bottom: 0vh;
 margin-left: 5%;
 margin-right: 5vw;
 border-radius: 50px;
@@ -267,33 +450,53 @@ margin-bottom: none;
 border-color: #3F72AF;
 border-style: solid;
 border-width: 20px;
-display: block;
+display: none;
 overflow: hidden;
 height: auto;
+}
+
+.section_road_mobile {
+  background-color: white;
+  margin-top: 5vh;
+  padding-bottom: 0vh;
+  margin-left: 5%;
+  margin-right: 5vw;
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  border-width: 20px;
+  display: block;
+  overflow: hidden;
+  height: auto;
 }
 
 .roadmap_img {
 margin-left: 2vw;
 }
 
+.roadmap_img_mobile {
+  width: 89vw;
+  display: show;
+}
+
 
 /*ICO and Podcast Code*/
 
 .ico_pod {
-margin-top: 5vw;
+margin-top: 5vh;
 margin-left: 5%;
 border-radius: 50px;
 margin-bottom: none;
-display: block;
+display: none;
 overflow: hidden;
 height: 84vh;;
 width: 88vw;
 }
 
 .ico {
-width: 86vw;
 background-color: white;
-padding-bottom: 0vw;
+padding-bottom: 0vh;
 margin-right: 5vw;
 border-radius: 50px;
 margin-bottom: none;
@@ -304,14 +507,15 @@ display: block;
 overflow: hidden;
 height: auto;
 width: 36vw;
-height: 38vw;
+height: 65vh;
 float: left;
+overflow-y: auto;
 }
 
 .pod {
 width: 86vw;
 background-color: white;
-padding-bottom: 0vw;
+padding-bottom: 0vh;
 border-radius: 50px;
 margin-bottom: none;
 border-color: #3F72AF;
@@ -321,10 +525,11 @@ display: block;
 overflow: hidden;
 height: auto;
 width: 36vw;
-height: 38vw;
+height: 65vh;
 float: right;
 position: absolute;
 margin-left: 50%;
+overflow-y: auto;
 }
 
 .title_half {
@@ -339,37 +544,55 @@ margin-top: 0%;
 padding: 1vw;
 width: fit-content;
 text-align: center;
-margin-top: 0.1vw;
-text-align: center;
-margin-left: 15vw;
+margin-top: 2vh;
+margin-left: 30vw;
+}
+
+.title_half_2 {
+  border-radius: 50px;
+  margin-bottom: none;
+  border-color: #3F72AF;
+  border-style: solid;
+  color: #7ECCFF;
+  display: block;
+  background-color: #3F72AF;
+  margin-top: 0%;
+  padding: 1vw;
+  width: fit-content;
+  text-align: center;
+  margin-top: 2vh;
+  margin-left: 35vw;
 }
 
 .ico_text {
 font-size: 180%;
 width: 30vw;
 margin-left: 2vw;
+font-family: 'CustomFont', 'bantayogregular';
 }
 
 .pod_text {
 font-size: 180%;
 width: 30vw;
 margin-left: 2vw;
+font-family: 'CustomFont', 'bantayogregular';
 }
 
 li {
 margin-left: 2vw;
 font-size: 30px;
+font-family: 'CustomFont', 'bantayogregular';
 }
 
 a {
-color: white;
+color: black;
 }
 
 /* Footer Code */
 
 footer {
 background-color: #3F72AF;
-padding-bottom: 0vw;
+padding-bottom: 0vh;
 border-radius: 50px;
 border-color: #3F72AF;
 border-style: solid;
@@ -377,30 +600,39 @@ border-width: 20px;
 display: block;
 overflow: hidden;
 width: 86vw;
-height: 200px;
+height: auto;
 float: left;
-margin-top: 5vw;
-margin-left: 5%;
-margin-bottom: 1vw;
+margin-top: 5vh;
+margin-left: 5vw;
+margin-right: 5vw;
+margin-bottom: 1vh;
 }
 
 .footer-image {
-margin-left: 90%;
+float: right;
 }
 
 .footertext {
 text-align: center;
 margin-left: 100px;
 margin-right: 100px;
-margin-bottom: 0px;
+margin-bottom: 20px;
 color: white;
 font-family: 'CustomFont', 'bantayogregular';
-font-size: 120%;
+font-size: 150%;
+display: none;
+}
+
+.footertextmobile {
+  text-align: left;
+  font-family: 'CustomFont', 'bantayogregular';
+  display: inline-block;
+  color: white;
 }
 
 /*Button Code*/
 .button {
-  display: inline-block;
+  display: none;
   padding: 0.75rem 1.25rem;
   border-radius: 10rem;
   color: #fff;
@@ -411,10 +643,14 @@ font-size: 120%;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  margin-right: 4vw;
+  margin-top: 20px;
+  height: 1.2vh;
   text-align: center;
   text-decoration: none;
   width: 30vw;
-  height: 7vh;
+  height: auto;
+  font-family: 'CustomFont', 'bantayogregular';
 }
 .button:after {
   content: "";
@@ -448,9 +684,24 @@ font-size: 120%;
 
 
 .button_2 {
-  display: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  text-decoration: none;
+  width: 30vw;
+  height: auto;
+  margin-left: 2vw;
+  font-family: 'CustomFont', 'bantayogregular';
+  display: inline-block;
 }
-
 .button_2:after {
   content: "";
   position: absolute;
